@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #EEF0F2;
+}
+
+header {
+    height: 100px;
+    width: vw;
+    background-color: white;
+    padding: 0;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+footer {
+    background-color: grey;
+}
