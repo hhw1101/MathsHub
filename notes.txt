@@ -1,7 +1,13 @@
 color for background : #e9e9e7
 text: #5d5250
+font: Fredoka One
 secondary text : #f37785
-
+font: Nunito
 yellow: ffd767
 red: f37785
 green: 78c7a0
+
+nav nunito font
+image taken from my tutor orange
+image taken from qca.org.uk paper
+
