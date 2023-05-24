@@ -1,0 +1,7 @@
+color for background : #e9e9e7
+text: #5d5250
+secondary text : #f37785
+
+yellow: ffd767
+red: f37785
+green: 78c7a0
