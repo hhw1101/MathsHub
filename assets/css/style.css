@@ -75,7 +75,7 @@ h3 {
     color: #e9e9e7;
 }
 
-hr{
+hr {
     border-top: 2px solid #5d5250;
 }
 
@@ -111,6 +111,18 @@ hr{
     border-radius: 10px;
     width: 535px;
     object-fit: cover;
+}
+
+#meet-the-team hr {
+    border: 3px solid #f37785;
+    border-radius: 3px;
+    width: 10%;
+    margin: auto;
+}
+
+.meet-the-team-title {
+    color: #f37785;
+    text-align: center;
 }
 
 .row {
@@ -165,10 +177,62 @@ hr{
     color: #e9e9e7;
 }
 
+.sign-up-image {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative;
+    margin: auto;
+}
+
+.sign-up-title {
+    text-align: center;
+
+}
+
+.sign-up-title a {
+    color: #5d5250;
+    text-decoration: none;
+}
+.sign-up-title a:hover{
+    color: #f37785;
+    text-decoration-line: underline;
+}
+.sign-up-title p{
+    font-size: 20px;
+}
+.email-address{
+    font-style: italic;
+    font-weight: bold;;
+}
+
+.signup-pdf {
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+}
+
+.signup-pdf a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #5d5250;
+}
+
+.signup-pdf a:hover{
+    color: #f37785;
+    font-size: 20px;
+}
+
+
 footer {
     background-color: #5d5250;
     color: #e9e9e7;
     width: 100vw;
     position: absolute;
     left: 0;
+}
+
+.footer hr{
+    color: #e9e9e7;
+    border: 3px solid #e9e9e7;
 }
