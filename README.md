@@ -1,6 +1,7 @@
 <h1 align="center">MathsHub</h1>
 
 [View the live project here.](https://hhw1101.github.io/MathsHub/)
+
 ![Responsive Design](assets/img/readme/responsive-design.png)
 
 ## **Table of Contents**
