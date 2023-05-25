@@ -64,18 +64,28 @@ The website was to follow a similar theme of the Code Institute sample website '
 ## **Features**
 ### Existing Features
 - Navigation Bar
-  - 
+  - The navigation bar contains the business Logo and the section names
+  - The navigation bar is fixed at the top of the screen.
+  - The navigation bar jumps to each section of the page except for the footer. 
 - Landing page image with slogan
+  - This introduces the atmosphere that the business is portraying. 
+  - The image of work and a guiding hand, informs the user about the types of tutoring sessions that are offered.
 - About us
-  - MathsHub beginnings and aim
+  - This is a for further information about MathsHub
 - Meet the Team
+  - The Team portfolio is to introduce the team and who the students will be working with.
+  - This is to allow potential users who sign up to see a familar face
 - Sign up form
+  - There are two pdfs that are for the user to fill in.
+  - The pdfs open on a new tab, which can be downloaded.
 - Footer
-- 
+  - The footer contains a company logo and slogan
+  - There are links to Social media accouts and a contact form to ask further questions.
 ### Future Features
 - A tutor friendly version of the website in addition to the student version.
 - A built in sign up form where you can the form changes depending on who needs the form.
-- 
+- A carousel for the landing image, this is due to lack of photos to use.
+- Having more team members and having a carousel of the profiles
 
 ## **Technologies Used**
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
