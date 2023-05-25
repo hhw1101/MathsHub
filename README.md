@@ -21,7 +21,7 @@
   - [HTML Validator](#html-validator)
     - [Warning](#warning)
   - [CSS Validator](#css-validator)
-  - [Bugs](#bugs)
+  - [Bugs and Fixes](#bugs-and-fixes)
 - [**Credits**](#credits)
   - [Media](#media)
   - [Code](#code)
@@ -92,10 +92,11 @@ The website was to follow a similar theme of the Code Institute sample website '
 - A carousel for the landing image, this is due to lack of photos to use.
 - Having more team members and having a carousel of the profiles.
 - Creating a custom 404 Error Page.
+- A drop down navigation bar for mobile and tablet screen sizes.
 
 ## **Technologies Used**
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
-- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html#:~:text=Cascading%20Style%20Sheets%20(CSS)%20is,from%20the%20CSS%20working%20group.)
+- [CSS3](https://www.w3.org/Style/CSS/)
 - [Github](https://github.com/) and [Git](https://git-scm.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
@@ -104,6 +105,7 @@ The website was to follow a similar theme of the Code Institute sample website '
 - [StackOverFlow](https://stackoverflow.com/)
 - [HTML Validator](https://validator.w3.org/)
 - [Favicon Generator](https://favicon.io/)
+- [Responsive Design Demo](https://ui.dev/amiresponsive)
   
 ## **Testing**
 
@@ -126,8 +128,11 @@ After completing the design and responsive design, I then checked the css file u
 
 > ![CSS validation](assets/img/readme/css-validation.png)
 
-### Bugs
-1.  Currently when using the navigation bar the page does not jump to the header due to the fixed navigation bar. 
+### Bugs and Fixes
+   
+1.  Due to the navigation bar being fixed at the top, the navigation bar doesn't direct the page to the top of the section. To be able to fix this issue, the hyperlink needs to be addressed to the section and then shifted to account for the header.
+2. The contact form would format differently depending on the screen size, which can be fixed with further CSS manipulation.
+   
 
 ## **Credits**
 
