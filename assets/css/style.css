@@ -57,25 +57,6 @@ nav a:hover {
     position: relative;
 }
 
-/* 
-/* Adding button for small display following tutorial 
-.hamburger-menu {
-    /* position: absolute; 
-    /* top: 5%;
-    right: 3%; 
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.hamburger-menu .bar {
-    height: 3px;
-    width: 100%;
-    background-color: #5d5250;
-    border-radius: 5px;
-} */
 
 h1 {
     font-weight: 700;
@@ -440,6 +421,9 @@ textarea {
         float: right;
         padding: 10px 10px;
 
+    }
+    body{
+        margin-top: 200px;
     }
 
     nav li {
