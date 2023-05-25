@@ -416,13 +416,17 @@ textarea {
 }
 
 @media screen and (max-width:450px) {
+    header img {
+        height: 75px;
+    }
 
     nav {
         float: right;
         padding: 10px 10px;
 
     }
-    body{
+
+    body {
         margin-top: 200px;
     }
 
@@ -432,7 +436,7 @@ textarea {
         text-align: right;
     }
 
-    .text-overlay {
+    .text-overlay {top: 250px;
         font-size: 20px;
     }
 
