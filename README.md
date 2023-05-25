@@ -76,4 +76,3 @@ In order of apperance
 
 Inspiration was taken from [Code Institute Love Running](https://github.com/Code-Institute-Org/love-running-2.0)
 
-###

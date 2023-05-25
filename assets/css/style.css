@@ -57,6 +57,26 @@ nav a:hover {
     position: relative;
 }
 
+/* 
+/* Adding button for small display following tutorial 
+.hamburger-menu {
+    /* position: absolute; 
+    /* top: 5%;
+    right: 3%; 
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.hamburger-menu .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #5d5250;
+    border-radius: 5px;
+} */
+
 h1 {
     font-weight: 700;
     font-size: 50px;
@@ -177,6 +197,10 @@ hr {
     color: #e9e9e7;
 }
 
+.contact a:hover {
+    color: #78c7a0;
+}
+
 .sign-up-image {
     width: 400px;
     object-fit: cover;
@@ -291,9 +315,153 @@ textarea {
 .button {
     background-color: #f37785;
     color: #e9e9e7;
+    /* position: relative; */
+    /* right:30px; */
 }
 
 .button:hover {
     background-color: #78c7a0;
     color: #5d5250;
+}
+
+@media screen and (max-width:992px) {
+
+
+    header img {
+        height: 100px;
+    }
+
+    nav {
+        float: left;
+        padding-top: 110px;
+        padding-left: 15px;
+    }
+
+    .about-image {
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .circle {
+        top: 15%;
+        left: 15%;
+        width: 70%;
+        height: 45%;
+    }
+
+    .profile-card {
+        height: 350px;
+    }
+
+    .profile-card h2 {
+        font-size: 1.3em;
+    }
+
+    .profile-card h3 {
+        font-size: 1em;
+    }
+
+    .contact {
+        left: 30%;
+    }
+
+    .contact a {
+        font-size: 35px;
+        margin: auto;
+    }
+
+    .signup-pdf a {
+        font-size: 20px;
+    }
+
+    .signup-pdf a:hover {
+        font-size: 27px;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    nav li {
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    .text-overlay {
+        font-size: 30px;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    .about-image {
+        padding: 15px 0;
+        width: 500px;
+    }
+
+    .circle {
+        width: 40%;
+        height: 50%;
+        left: 30%;
+        top: 15%;
+    }
+
+    .profile-card {
+        width: 80%;
+        margin: auto;
+    }
+
+    .profile-card h3 {
+        text-align: center;
+    }
+
+    .team-title {
+        left: 35px;
+    }
+
+    .contact {
+        left: 40%;
+    }
+
+    .button {
+        position: absolute;
+        bottom: 30px;
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width:450px) {
+
+    nav {
+        float: right;
+        padding: 10px 10px;
+
+    }
+
+    nav li {
+        z-index: 4;
+        display: block;
+        text-align: right;
+    }
+
+    .text-overlay {
+        font-size: 20px;
+    }
+
+    .about-image {
+        width: 300px;
+    }
+
+    footer h3 {
+        font-size: 1em;
+    }
+
+    footer img {
+        width: 90%;
+        left: 5%;
+    }
 }
