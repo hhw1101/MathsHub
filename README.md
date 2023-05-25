@@ -52,7 +52,7 @@ The website encourages the user to sign up to the service or to ask more questio
     - 2. As a freqeunt user, I want to easily 
 
 ## **Design**
- ![Logo](assets\img\logo.png)
+ ![Logo](assets/img/logo.png)
 
 ### Colour Scheme  
  ![Palette](assets/img/readme/palette.png)
