@@ -1,30 +1,43 @@
 <h1 align="center">MathsHub</h1>
 
-[View the live project here.](https://github.com/hhw1101/MathsHub)
+[View the live project here.](https://hhw1101.github.io/MathsHub/)
+![Responsive Design](assets/img/readme/responsive-design.png)
 
-<!-- Need to replace url in live project -->
-## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Introduction](#introduction)
-- [User Experience (UX)](#user-experience-ux)
+## **Table of Contents**
+- [**Table of Contents**](#table-of-contents)
+- [**Introduction**](#introduction)
+- [**User Experience** (UX)](#user-experience-ux)
+  - [Aim](#aim)
   - [User Stories](#user-stories)
-- [Features](#features)
+- [**Design**](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Font](#font)
+  - [Imagery](#imagery)
+- [**Features**](#features)
   - [Existing Features](#existing-features)
   - [Future Features](#future-features)
-- [Technologies Used](#technologies-used)
-- [Testing](#testing)
-- [Credits](#credits)
+- [**Technologies Used**](#technologies-used)
+- [**Testing**](#testing)
+  - [HTML Validator](#html-validator)
+    - [Warning](#warning)
+  - [CSS Validator](#css-validator)
+  - [Bugs and Fixes](#bugs-and-fixes)
+- [**Credits**](#credits)
   - [Media](#media)
   - [Code](#code)
-  - [](#)
 
-## Introduction
+## **Introduction**
 
 MathsHub is a fictional online tutoring service. The idea is inspired by a small business looking to expand further by having and online presence. The website is to introduce the idea of MathsHub further. Additionally, the website explains why MathsHub is a better option over other similar businesses.
 
-## User Experience (UX)
+## **User Experience** (UX)
+### Aim
+The aim of MathsHub is to help people who are of disadvantage help in maths through weekly online sessions. The website is to make a larger online presence for a small tutoring business, to gain more traction. This has key information about what happens at MathsHubs. 
+
+The website encourages the user to sign up to the service or to ask more question.
 
 ### User Stories
+
  - First Time Visitor
     - 1. As a first time user, I want to know what is MathsHub.
     - 2. As a first time user, I want to know where is the meetings.
@@ -38,24 +51,90 @@ MathsHub is a fictional online tutoring service. The idea is inspired by a small
     - 1. As a freqeunt user, I want to be able to keep up to date with what is happening at MathsHub.
     - 2. As a freqeunt user, I want to easily 
 
-## Features
-### Existing Features
-### Future Features
+## **Design**
+ ![Logo](assets\img\logo.png)
 
-## Technologies Used
+### Colour Scheme  
+ ![Palette](assets/img/readme/palette.png)
+
+The colour scheme used is based on the logo that was generated. This led to the main two colors being an off-white (#E9E9E7) and brown (#5d5250). The brighter colours in the logo are incorporated throughout the website in  small snippets.
+
+### Font
+Following the logo, the font to the website uses the main font for all the headings and a lighter font as the general text. The font is a softer font without sharp edges to be more appealing to a young audience and to not come across too harsh.
+
+### Imagery 
+The website was to follow a similar theme of the Code Institute sample website 'Love Running'. However the plan was to have an informative and easy to navigate website. The inital plan was to have multiple pages, however after some thought to make a more user friendly website I believed that a single page is easier to navigate.
+
+## **Features**
+### Existing Features
+- Navigation Bar
+  - The navigation bar contains the business Logo and the section names
+  - The navigation bar is fixed at the top of the screen.
+  - The navigation bar jumps to each section of the page except for the footer. 
+- Landing page image with slogan
+  - This introduces the atmosphere that the business is portraying. 
+  - The image of work and a guiding hand, informs the user about the types of tutoring sessions that are offered.
+- About us
+  - This is a for further information about MathsHub
+- Meet the Team
+  - The Team portfolio is to introduce the team and who the students will be working with.
+  - This is to allow potential users who sign up to see a familar face
+- Sign up form
+  - There are two pdfs that are for the user to fill in.
+  - The pdfs open on a new tab, which can be downloaded.
+- Footer
+  - The footer contains a company logo and slogan
+  - There are links to Social media accouts and a contact form to ask further questions.
+  
+### Future Features
+- A tutor friendly version of the website in addition to the student version.
+- A built in sign up form where you can the form changes depending on who needs the form.
+- A carousel for the landing image, this is due to lack of photos to use.
+- Having more team members and having a carousel of the profiles.
+- Creating a custom 404 Error Page.
+- A drop down navigation bar for mobile and tablet screen sizes.
+
+## **Technologies Used**
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
-- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html#:~:text=Cascading%20Style%20Sheets%20(CSS)%20is,from%20the%20CSS%20working%20group.)
+- [CSS3](https://www.w3.org/Style/CSS/)
 - [Github](https://github.com/) and [Git](https://git-scm.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [VSCode](https://code.visualstudio.com/)
 - [W3Schools](https://www.w3schools.com/)
 - [StackOverFlow](https://stackoverflow.com/)
+- [HTML Validator](https://validator.w3.org/)
+- [Favicon Generator](https://favicon.io/)
+- [Responsive Design Demo](https://ui.dev/amiresponsive)
   
-## Testing
+## **Testing**
+
+### HTML Validator
+Utilising this [HTML Validator](https://validator.w3.org/). 
+
+I checked the html file for issues after finishing each page. Overall there were minor errors to correct and were simple fixes. The only remaining issue remaining is a warning on the [Home](#html-validator) section as there is no heading. This is by design as this section is a scroll to the top shortcut. 
 
 
-## Credits
+#### Warning
+  >  ![HTML Warning](assets/img/readme/html-validation.png)
+  This warning states that a header should title the section. However the home id is used as a point of reference for the navigation bar.
+  A potential solution would be to reference the home navigation bar to the index.html. However, this warning will still remain. The alternative is to have an header hidden behind the photo.
+
+
+### CSS Validator
+Utilising this [CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+After completing the design and responsive design, I then checked the css file using the validator. The validator didn't not find any issues.
+
+> ![CSS validation](assets/img/readme/css-validation.png)
+
+### Bugs and Fixes
+   
+1.  Due to the navigation bar being fixed at the top, the navigation bar doesn't direct the page to the top of the section. To be able to fix this issue, the hyperlink needs to be addressed to the section and then shifted to account for the header.
+2. The contact form would format differently depending on the screen size, which can be fixed with further CSS manipulation.
+   
+
+## **Credits**
 
 ### Media
 In order of apperance
