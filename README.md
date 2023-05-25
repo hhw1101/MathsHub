@@ -18,6 +18,10 @@
   - [Future Features](#future-features)
 - [**Technologies Used**](#technologies-used)
 - [**Testing**](#testing)
+  - [HTML Validator](#html-validator)
+    - [Warning](#warning)
+  - [CSS Validator](#css-validator)
+  - [Bugs](#bugs)
 - [**Credits**](#credits)
   - [Media](#media)
   - [Code](#code)
@@ -48,8 +52,8 @@ The website encourages the user to sign up to the service or to ask more questio
     - 2. As a freqeunt user, I want to easily 
 
 ## **Design**
-
  ![Logo](assets\img\logo.png)
+
 ### Colour Scheme  
  ![Palette](assets/img/readme/palette.png)
 
@@ -81,11 +85,13 @@ The website was to follow a similar theme of the Code Institute sample website '
 - Footer
   - The footer contains a company logo and slogan
   - There are links to Social media accouts and a contact form to ask further questions.
+  
 ### Future Features
 - A tutor friendly version of the website in addition to the student version.
 - A built in sign up form where you can the form changes depending on who needs the form.
 - A carousel for the landing image, this is due to lack of photos to use.
-- Having more team members and having a carousel of the profiles
+- Having more team members and having a carousel of the profiles.
+- Creating a custom 404 Error Page.
 
 ## **Technologies Used**
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
@@ -96,9 +102,32 @@ The website was to follow a similar theme of the Code Institute sample website '
 - [VSCode](https://code.visualstudio.com/)
 - [W3Schools](https://www.w3schools.com/)
 - [StackOverFlow](https://stackoverflow.com/)
+- [HTML Validator](https://validator.w3.org/)
+- [Favicon Generator](https://favicon.io/)
   
 ## **Testing**
 
+### HTML Validator
+Utilising this [HTML Validator](https://validator.w3.org/). 
+
+I checked the html file for issues after finishing each page. Overall there were minor errors to correct and were simple fixes. The only remaining issue remaining is a warning on the [Home](#html-validator) section as there is no heading. This is by design as this section is a scroll to the top shortcut. 
+
+
+#### Warning
+  >  ![HTML Warning](assets/img/readme/html-validation.png)
+  This warning states that a header should title the section. However the home id is used as a point of reference for the navigation bar.
+  A potential solution would be to reference the home navigation bar to the index.html. However, this warning will still remain. The alternative is to have an header hidden behind the photo.
+
+
+### CSS Validator
+Utilising this [CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+After completing the design and responsive design, I then checked the css file using the validator. The validator didn't not find any issues.
+
+> ![CSS validation](assets/img/readme/css-validation.png)
+
+### Bugs
+1.  Currently when using the navigation bar the page does not jump to the header due to the fixed navigation bar. 
 
 ## **Credits**
 
